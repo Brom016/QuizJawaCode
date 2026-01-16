@@ -3,7 +3,7 @@ local Players = game:GetService("Players")
 local prompt = script.Parent:WaitForChild("ProximityPrompt")
 local spawnLocation = workspace:WaitForChild("SpawnLocation")
 
-local difficulty = "Hard" -- GANTI sesuai folder
+local difficulty = "Normal" -- GANTI sesuai folder
 
 local function destroyKiller(player)
 	for _, obj in ipairs(workspace:GetChildren()) do

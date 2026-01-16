@@ -9,7 +9,7 @@ local mainPart = answerModel:WaitForChild("Main")
 
 -- Konfigurasi Sistem
 local SPAWN_OFFSET = Vector3.new(0, 0, -20)
-local POINT_INCREMENT = 1
+local POINT_INCREMENT = 1 -- Poin yang diberikan per stage baru
 
 -- Ekstraksi dan Validasi ID Stage
 local stageID = tonumber(questionModel.Name)
